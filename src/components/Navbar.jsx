@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import OverlayMenu from "./OverlayMenu";
 import { FiMenu } from "react-icons/fi";
-import Vivek from "../assets/Vivek.png"
+import VLOGO from "../assets/VLOGO.png"
 
 export default function Navbar(){
   const [menuOpen,setMenuOpen] = useState(false);
@@ -65,7 +65,7 @@ export default function Navbar(){
     <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 py-4 z-50 transition-transform duration-300 ${visible ? "translate-y-0" : "-translate-y-full"}`}>
 
       <div className="flex items-center">
-        <img src={Vivek} alt="logo" className="w-15 h-12" />
+        <img src={VLOGO} alt="logo" className="w-15 h-10" />
         <div className="text-2xl font-bold text-white hidden sm:block">Vivek</div>
       </div>
 

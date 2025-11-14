@@ -101,7 +101,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}
             >
-              Hello I'm
+              Hello, I'm
               <br />
               <span className="text-white font-bold text-5xl sm:text-4xl md:text-5xl lg:text-5xl lg:whitespace-nowrap">
                 Vivek Kumar Verma
