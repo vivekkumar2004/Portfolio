@@ -134,7 +134,7 @@ export default function Home() {
               <a
                 href="/VivekResume.pdf"
                 download
-                className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover-scale-105 trasition-all"
+                className="px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105 trasition-all"
               >
                 My Resume
               </a>
