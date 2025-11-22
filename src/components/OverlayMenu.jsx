@@ -31,7 +31,6 @@ const origin = isMobile ? "95% 8%" : "50% 8%"
               "About",
               "Skills",
               "Projects",
-              "Experience",
               "Testimonials",
               "Contact",
             ].map((item, index) => (
